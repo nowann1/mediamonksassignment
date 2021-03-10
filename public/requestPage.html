@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Document</title>
+</head>
+
+<body class="imagenFondo">
+    
+    <div class="container">
+<nav>
+
+    <div class="logo">
+
+        <a href="index.html"><h4>NAHUEL LADEDA MEDIAMONKS'S ASSIGNMENT</h4></a>
+    </div>
+    <ul class="nav-links">
+        
+        <li><a href="#" class="linkPage">ABOUT</a></li>
+        <li><a href="#" class="linkPage">CONTACT</a></li>
+        <p class="userNameNav" id="user"></p>
+        <li><a href="index.html" class="linkPage">LOGOUT</a></li>
+
+    </ul>
+
+</nav>
+
+
+<div class="animate__animated animate__fadeInLeftBig">
+<div class="split left">
+    
+    <h1>REQUEST</h1>
+    
+    <form class="request-form" id="request-form">
+        <div class = "radio" id="selRequest">
+            <input type="radio" class = "radio-request" name= "radioButton" id="radio1" value="submitData" onclick=showEndpoint(0) checked>
+            <label class= "radio-label" for="radio1">SUBMIT DATA</label>
+            <input type="radio" class = "radio-request" name= "radioButton" id="radio2" value="get" onclick=showEndpoint(1)>
+            <label class= "radio-label" for="radio2">GET</label>
+        </div> 
+        <br>       
+        <textarea class = "make-request" rows="20" cols="60" id="txtValue" placeholder='"clave1":"valor1",&#10;"clave2":"valor2"'></textarea>
+        <div class="botonAlineado">
+        <button id="btnRequest" class="btnRequest">MAKE REQUEST</button>
+        
+        </div>      
+    </form>
+    <button hidden onclick="goToEndPoint()" class="btnEndPoint" id="btnEndPoint">ENDPOINT</button>
+    </div>
+    <div class="users-inPage">
+        <h1>MONKS ONLINE: </h1>
+        <ul id="user-list"></ul>
+    </div>
+    
+
+</div>
+
+    <div class="split right">
+        <div class="animate__animated animate__fadeInRightBig">
+    <h1>RESPONSE</h1>
+    
+    <textarea class= "request-response" value="Response" col="60" id='request-response' placeholder="Response values" readonly></textarea>
+</div>
+    </div>
+    </div>
+</div>
+</div>
+  
+
+<script>
+      
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.6/qs.min.js" integrity="sha512-3TmPrquYLaAsUmZKXRARTDC5siWhLAdBVqNo4dWpDABBtLU62AaoTaQJEvjxjExcZYurO6i1dnK85k8pPIBlRg==" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./src/client.js"></script>
+    
+</body>
+
+</html>

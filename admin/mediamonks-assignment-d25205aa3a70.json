@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mediamonks-assignment",
+  "private_key_id": "d25205aa3a709060af96b19779ecc8c187c2fc64",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDYpwLu6TLz9+zp\nXyg02hWvJDoHauSb0I+gTYleEUEgCjKL/KxcVZVTZTHc9XZmcAojirEsMaHZR+yi\n3Q4aCIbDAL0/5nrF8SOnTFVbwBXqz9Opc4nMBAmC4gQ/8zfxffjvZA46lhFq4wqg\nbGGYNcw/XwUwwzqCgsZXBnZ+gTogicEjXe0J2Ote2angn8XUGWk0yHHcZsDqbEuc\nLIeZcu5LZCb/N/GyU4a6Rqv78yWWS0g1OIHtP5xz4gz+Pii2Cj+vI/2ScH8zynBf\noXnOCBxs7x27HhsP612v5ZMgcnW8wqZnKUPrwEq+40MwEl4c7lM5WN2Vy7ENFjEa\nfB/t62TbAgMBAAECggEAHTvX8lCRjrL/CvR18pUU2k0AmYdLxqygnL2pp1bxBeI/\ntNJI7a1Mrh6YWQY0I5ltp3hrn24pC9kf2KVhuuiN9UUlxDgU4UhrClmLUQs9HzH2\nOnC71hrGBRz7UX0U/jyEeRpJWJAZqeXDRXyqZJqpxJ6ijtRhEkLpgXepSI5RFMT8\nzx5SghHBEVq/Qf9WnMcS/b7Cg8Ao3wPrrD5X/1oOPkWL8EJBvevlFX8WPvRyQDKY\nCR1chZjOAjFjpBEKgnugpiKny4KfmCtqgo3ZuGMaO8qZzSFEloR6MKTGENxEVh2D\nSU9VARTyp0v9ZgsbcaeK/8T8mm90x+y+k1cvCVgH2QKBgQD2up2xkrmSsKIhDraj\nO7SzNprfFbhyKRDbbAth/cmN37/cPeGq66LdCDq6/j1QU+TVdpvWdJd12DNwMy3z\nEnU5vYXPtDdmSQogNiLPsGk5LFhWTJnmgSOc6tPlhxYDXyaQOOslRGCmbhDETycS\nqg/Q0x/WxNcj+9sLNPetORXEEwKBgQDgyxOu+X7zdl2JSmD3SMw9J93oeCldrGPF\nI34oV8ecbA2aH9DWIrb2w/TMooU++gNb6FIZKi0yah6j0In+0Ft20o09wtNEOwV7\nOXWV/oF2ZJxtG/iwfAxndrhK1MddI87VBFcrtlY1FQTxba7Ziqph5mKCX1a4XSTc\nuI1eLkmlGQKBgQCyv9CvbZV0aPOM75Px/reTfuQE6z+NtaK41TYJ8EuttYTSkyKD\nKeP8LpIeF0NkhuMqo5uTazSv88qQZwPLLnwvMNdY+z+HozLq0021GiGhgjcdjrGR\nBc4/SQHrMEsKdk0B/7qcbUV4ThVno9Cy/PIoYEyY1FLphvXS0LT/knPqcQKBgQC7\neYI7/oZbA890jZya/5KeOl5+36AYKIq4wiYX/UVTdmZNsNUZkbAn0zuZYr1fzWD5\nyKKXrC4vioNtOaGs6xYs3eK/rHlHwTWMFFq1sqFEHRq8gISCo6Iws7l1Z0mxqwh3\nbXxJz3LMKHCL7V7SvSvmJB7p/hsz/TKeBiiYcGApGQKBgQDyktLtcESvs5g9JG+V\n6K/JZEcuK1lte+8tc8h2/3AWvn3rsdYpNzLHMKEJGhQVZGDh2X62oy1HfayQEY5L\nbExcEmv6NEnMlqKtTSB695SYbnWpYuBC4qYOqy36giZfY4T2GRita4KOiv3zFafM\ndqjk9WdE6TY4kZiwUz3YZhY1bg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "nahuel@mediamonks-assignment.iam.gserviceaccount.com",
+  "client_id": "110390210411165582395",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nahuel%40mediamonks-assignment.iam.gserviceaccount.com"
+}

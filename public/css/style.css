@@ -1,0 +1,421 @@
+@font-face {
+  src: url("../../fonts/klavika-bold.otf");
+  font-family: klav-bold;
+}
+
+@font-face {
+  src: url("../../fonts/klavika-light.otf");
+  font-family: klav-light;
+}
+
+@font-face {
+  src: url("../../fonts/klavika-light-italic.otf");
+  font-family: klav-light-italic;
+}
+
+:root {
+  --dark-color-a: #111111;
+  --dark-color-b: #242424;
+  --light-color: #151519;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.users-inPage {
+  position: relative;
+  top: 790px;
+  left: 25px;
+}
+
+h1 {
+  font-size: 40px;
+  left: 50%;
+  top: 20%;
+}
+
+h4 {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+.split.left {
+  left: 0;
+  text-align: center;
+}
+
+.split.right {
+  right: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.chart {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
+
+.imagenFondo {
+  background: url("../img/monk.jpg") fixed center;
+  background-image: url("../img/monk.jpg");
+  background-image: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #050505;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.request-form {
+  align-content: center;
+}
+
+.request-response {
+  font-family: klav-light;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(223, 168, 143);
+  width: 500px;
+  margin-top: 25px;
+  height: 480px;
+  resize: none;
+}
+
+.option-request {
+  background: black;
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.radio {
+  display: inline-flex;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(189, 189, 189, 0.2);
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.radio-request {
+  display: none;
+}
+
+.radio-label {
+  padding: 8px 14px;
+  font-size: 14px;
+  font-family: klav-bold;
+  color: white;
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: background 0.2s;
+}
+
+.radio-label:not(:last-of-type) {
+  border-right: 1px solid #000000;
+}
+
+.loginInput {
+  font-family: klav-bold;
+}
+
+.radio-request:checked + .radio-label {
+  background: #383838;
+}
+
+.make-request {
+  font-family: klav-light;
+  resize: none;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(212, 130, 92);
+  margin-bottom: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: inline-block;
+}
+
+.userNameNav {
+  text-transform: uppercase;
+}
+
+.linkPage::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2.2px;
+  background: whitesmoke;
+  transition: width 0.3s;
+}
+
+.linkPage:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+body {
+  font-family: klav-bold;
+  font-size: 16px;
+  color: white;
+}
+
+.bgImageContainer {
+  background-image: url("../img/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.overlay {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  position: absolute;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn,
+.btnRequest,
+.btnEndPoint {
+  cursor: pointer;
+  padding: 5px 15px;
+  background: var(--light-color);
+  color: var(--dark-color-a);
+  border: 1;
+  font-size: 17px;
+}
+
+.join-container {
+  width: 450px;
+  background: #000000;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.join-header {
+  text-align: center;
+  padding: 10px;
+  background: var(--dark-color-a);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-radius: 3px;
+}
+
+.join-main {
+  padding: 20px 40px;
+  background: var(--dark-color-b);
+  border-radius: 3px;
+}
+
+.join-main p {
+  margin-bottom: 20px;
+}
+
+.join-main .form-control {
+  margin-bottom: 30px;
+}
+
+.join-main label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.join-main input[type="text"] {
+  font-size: 14px;
+  padding: 5px;
+  height: 40px;
+  width: 100%;
+}
+
+.join-main .btn {
+  margin-top: 10px;
+  width: 50%;
+}
+
+.btn,
+.btnRequest,
+.btnEndPoint {
+  color: white;
+}
+
+.btn {
+  background: none;
+  color: #ccc;
+  margin-left: 25%;
+  width: 240px;
+  height: 80px;
+  border: 2px solid white;
+  font-size: 24px;
+  font-family: klav-bold;
+  border-radius: 25px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  overflow: hidden;
+}
+
+.btnRequest {
+  background: none;
+  color: #ccc;
+  width: 240px;
+  height: 80px;
+  border: 2px solid white;
+  font-size: 24px;
+  font-family: klav-bold;
+  border-radius: 25px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  overflow: hidden;
+}
+
+.btnEndPoint {
+  background: none;
+  color: #ccc;
+  margin-left: 65%;
+  margin-top: 2%;
+  width: 150px;
+  height: 50px;
+  border: 2px solid white;
+  font-size: 24px;
+  font-family: klav-bold;
+  border-radius: 25px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  overflow: hidden;
+}
+
+button[disabled="disabled"],
+button:disabled {
+  border: 2px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  pointer-events: none;
+}
+
+input.loginInput[type="text"] {
+  border: 3px solid #aaa;
+  font-family: klav-light;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  letter-spacing: 0.7px;
+  transition: 0.3s;
+}
+
+input.loginInput[type="text"]:focus {
+  border-color: white;
+  box-shadow: 0 0 10px 0 white;
+}
+
+.btn:focus,
+.btnRequest:focus,
+.btnEndPoint:focus {
+  outline: none;
+}
+
+.btn:hover,
+.btnRequest:hover,
+.btnEndPoint:hover {
+  background: white;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btnRequest:hover,
+.btnEndPoint:hover {
+  color: black;
+}
+
+.btn:hover:before,
+.btnRequest:hover:before,
+.btnEndPoint:hover:before {
+  -webkit-transform: translateX(300px) skewX(-15deg);
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 0.6;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.btn:after,
+.btnRequest:hover:after,
+.btnEndPoint:after {
+  -webkit-transform: translateX(300px) skewX(-15deg);
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 0.6;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
