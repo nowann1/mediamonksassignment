@@ -1,2 +1,41 @@
-# mediamonksassignment
-Solution for the MediaMonks' assignment
+![image](https://user-images.githubusercontent.com/79383025/110695405-9baa3e80-81c8-11eb-922f-89f0af53fc95.png)
+
+
+<h1 align="center">⛩️ Mediamonks Assignment ⛩️</h1>
+
+# Description
+
+<p>This project was made for MediaMonks by Nahuel Ladeda.</p>
+
+## What you should know
+
+ - Be sure to have Node up to date (I've used Node v15.9.0 for this project) 
+ - Run ```npm install``` to install all dependencies.
+ - Run ```npm start``` to start the server
+ - Go to ```http://localhost:4000/``` to use the service
+ - If you only want to use the endpoint ( although is accesible through the Request Page, by pressing the GET button) go to ```http://localhost:4000/v1/getValueFromKey?username=<username>&key=<key>``` and replace ```<username>``` with the username that you just use to make the request, and ```<key>``` with the key of the request you just made.
+ - Run ```npm test``` to test the endpoint
+
+### Features
+
+- Monk List: Shows all the monks online in the page.
+- Query List: Shows all the queries that you and other monks are making.
+
+This is the login page, a simple login that only takes your username
+![image](https://user-images.githubusercontent.com/79383025/110695025-22aae700-81c8-11eb-8dfb-da63c51cc767.png)
+
+
+This is the Request Page, this is what you should see once you login
+![image](https://user-images.githubusercontent.com/79383025/110691844-6a2f7400-81c4-11eb-8c98-659ac6585e19.png)
+
+### Database
+
+I've used FireStore as my database after testing MongoDB and having slower responses.
+
+This is the structure of the database
+![image](https://user-images.githubusercontent.com/79383025/110694770-cea00280-81c7-11eb-8829-622446272bf7.png)
+
+### About Me!
+
+Hi! My name is Nahuel Ladeda, i'm 22 years old, and i love programming 💻 , making music 🎹 and cats! 🐱
+
