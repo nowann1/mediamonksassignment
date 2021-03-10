@@ -25,14 +25,14 @@ This is the login page, a simple login that only takes your username
 ![image](https://user-images.githubusercontent.com/79383025/110695025-22aae700-81c8-11eb-8dfb-da63c51cc767.png)
 
 
-This is the Request Page, this is what you should see once you login
+This is the Request Page, this is what you should see once you login, it's quite intuitive.
 ![image](https://user-images.githubusercontent.com/79383025/110696205-8f72b100-81c9-11eb-899f-de7782458b17.png)
 
 
 
 ### Database
 
-I've used FireStore as my database after testing MongoDB and having slower responses.
+I went straigth to NoSQL and used FireStore as my database, after testing MongoDB and having much slower results.
 
 This is the structure of the database
 ![image](https://user-images.githubusercontent.com/79383025/110696352-bd57f580-81c9-11eb-8dcd-5de95a1e71f3.png)
