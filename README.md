@@ -26,14 +26,17 @@ This is the login page, a simple login that only takes your username
 
 
 This is the Request Page, this is what you should see once you login
-![image](https://user-images.githubusercontent.com/79383025/110691844-6a2f7400-81c4-11eb-8c98-659ac6585e19.png)
+![image](https://user-images.githubusercontent.com/79383025/110696205-8f72b100-81c9-11eb-899f-de7782458b17.png)
+
+
 
 ### Database
 
 I've used FireStore as my database after testing MongoDB and having slower responses.
 
 This is the structure of the database
-![image](https://user-images.githubusercontent.com/79383025/110694770-cea00280-81c7-11eb-8829-622446272bf7.png)
+![image](https://user-images.githubusercontent.com/79383025/110696352-bd57f580-81c9-11eb-8dcd-5de95a1e71f3.png)
+
 
 ### About Me!
 
