@@ -21,7 +21,7 @@
 - Monk List: Shows all the monks online in the page.
 - Query List: Shows all the queries that you and other monks are making.
 
-This is the login page, a simple login that only takes your username (also it doesn't fit with the Request Page, not the best stylistic choice)
+This is the login page, a simple login that only takes your username (also it doesn't fit with the Request Page, not the best stylistic choice to be honest)
 ![image](https://user-images.githubusercontent.com/79383025/110695025-22aae700-81c8-11eb-8dfb-da63c51cc767.png)
 
 
