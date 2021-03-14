@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/79383025/110695405-9baa3e80-81c8-11eb-922f-89f0af53fc95.png)
 
 
-<h1 align="center">⛩️ Mediamonks Assignment ⛩️</h1>
+<h1 align="center">⛩️ Mediamonks Assessment ⛩️</h1>
 
 # Description
 
